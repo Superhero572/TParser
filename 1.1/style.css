@@ -1,0 +1,182 @@
+* {
+	margin: none;
+	padding: 0;
+	}
+
+body {
+	background-color: #fff;
+	}
+
+#head {
+	text-align: center;
+	width: 20%;
+	padding: 5px;
+	margin: auto;
+	
+	width: 430px;
+    /* webkit example */
+    background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+    to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    /* mozilla example - FF3.6+ */
+    background-image: -moz-linear-gradient(
+    right center,
+    rgba(181, 208, 242, 1.0) 20%, rgba(255, 255, 255, 0) 95%
+    );
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+    gradientType=1, startColor=0, endColorStr=#FFFFFF
+    );
+    /* IE8 uses -ms-filter for whatever reason... */
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(
+    gradientType=1, startColor=0, endColoStr=#FFFFFF
+    );
+	
+	}
+
+#content {
+	max-width: 1190px;
+	min-width: 1190px;
+	margin: auto;
+	padding: 5px;
+	}
+
+#form textarea {
+	background-color: #5CA3FF;
+	border: none;
+	}
+	
+#form input {
+	margin-top: 5px;
+	background-color: #4C8CE0;
+	border: solid 1px #135FC2;
+	}
+
+/* Titles for areas of inventory */
+#title {
+	margin-left: 5px;
+	color: #fff;
+	}
+	
+#title2 {
+	clear: left;
+	margin-left: 5px;
+	color: #fff;
+	}
+	
+#coins {
+	margin-left: 725px;
+	}
+
+#ammo {
+	margin-left: 4.4em;
+	}
+
+#armour {
+	margin-left: 65px;
+	}
+
+#vanity {
+	margin-left: 54px;
+	}
+
+#accessories {
+	clear: left;
+	color: white;
+	margin-top: 10px;
+	}
+
+
+/* Tables for Inventory Display */
+#table1 {
+	float: left;
+	width: 1100px;
+	}
+
+#t1 {
+	float: left;
+	height: 200px;
+	}
+	
+#t2 {
+	float: left;
+	margin-left: 30px;
+	}
+
+#t3 {
+	float: left;
+	margin-left: 30px;
+	}
+	
+#t4 {
+	float: left;
+	margin-left: 30px;
+	}
+
+#t5 {
+	}
+	
+#t6 {
+	float: left;
+	}
+
+
+/* Item Object Properties */
+.item {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 56px;
+	height: 40px;
+	border: solid 1px #555;
+	float: left;
+	padding: 5px;
+	background-color: #5CA3FF;
+	position: relative;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	font-size: 13px;
+	}
+
+.item .num {
+	position: absolute;
+	left: 42px;
+	top: 23px;
+	color: #000;
+	}
+	
+.item img {
+	max-height: 40px;
+	max-width: 50px;
+	}
+
+.empty {
+	margin-left: 6px;
+	color: #2670D1;
+	}
+
+.error {
+	margin-left: 6px;
+	color: #2670D1;
+	}
+#error {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('images/Backgrounds/msg.png');
+}
+	
+/* Used to make a new line */
+.break {
+	height: 60px;
+	}
