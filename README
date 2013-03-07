@@ -1,4 +1,4 @@
-Inventory Parser V.1.0
+Inventory Parser V.1.1
 
 Description:
 Have you noticed someone on your server using cheated stuff? You have always wanted to check out their inventory?
@@ -14,17 +14,29 @@ How to use?
 
 Changelog
 
-1.0
-- Relased
+1.1
+-Fixed "EMPTY SLOT!" on page load.
+-Allow query using ?inv= (Normal inventory code not work yet, 'share inventory' code works)
+-Share inventory (Work, but string is long, update is coming soon...)
+-Disabled textarea resize
+-Debug mode (Not ready, update is coming soon...)
+-Inventory looks like "real terraria inventory" (Stylish, thanks popstarfreas)
+-Random backgrounds
+-Option to plain or design mode (?plain)
+-If browser too old, show message to update or use plain mode.
+-If ?inv disabled and try query doest show error.
 
-What i can do whit it?
+1.0
+-Relased
+
+What i can do with it?
 
 You can parse your inventory. It will show item picture, name and how many.
 You do not need to install anything to use this. (You may need a web browser.)
 
 ToDo
 -Code does not understand negative numbers. (Not me either :D)
--Maybe bit stylish...
+-Maybe bit stylish... [DONE]
 -Identify the tools made ??of a different material (hammer, sword, pick)
 -MySQL Support
 -Few image fix
